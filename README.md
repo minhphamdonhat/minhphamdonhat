@@ -18,22 +18,6 @@ I help enterprise teams turn unclear business needs into secure, scalable, produ
 
 I am a Vietnamese full-stack software engineer and **Senior Technical Consultant** based in Ho Chi Minh City, with **5+ years of enterprise software delivery experience** across financial-services platforms, data workflow systems, business-process automation, electronic toll collection, low-code applications, and production-critical enterprise systems.
 
-My current work sits at the intersection of:
-
-```text
-Client problems
-      ↓
-Business and technical context
-      ↓
-Architecture and workflow design
-      ↓
-Secure implementation
-      ↓
-Testing and validation
-      ↓
-Production-ready delivery
-```
-
 Most of my recent professional work is client-confidential, so I describe it at a capability and outcome level only.
 
 ---
@@ -51,12 +35,20 @@ Most of my recent professional work is client-confidential, so I describe it at 
 
 ---
 
-## 🏗️ Professional direction
+## 🏗️ How I approach delivery
 
 I am focused on becoming the kind of technical consultant who can move between business ambiguity and engineering execution without losing sight of delivery quality.
 
-```text
-Understand → Design → Implement → Test → Review → Improve
+```mermaid
+flowchart LR
+    A[Business Ambiguity] --> B[Requirement Clarification]
+    B --> C[Business & Technical Context]
+    C --> D[Architecture & Workflow Design]
+    D --> E[Secure Implementation]
+    E --> F[Testing & Review]
+    F --> G[Production-Ready Outcome]
+    G --> H[Feedback & Improvement]
+    H --> C
 ```
 
 For me, good technical consulting means:
@@ -120,22 +112,24 @@ I do not see AI in software delivery as “let the model write code and hope for
 
 The useful pattern is a governed workflow:
 
-```text
-Business context
-      ↓
-Technical context
-      ↓
-Structured specification
-      ↓
-Bounded task stream
-      ↓
-Model-assisted execution
-      ↓
-Human review
-      ↓
-Testing and validation
-      ↓
-Integrated delivery increment
+```mermaid
+flowchart TD
+    A[Business Context] --> B[Technical Context]
+    B --> C[Structured Specification]
+    C --> D[Bounded Task Stream]
+    D --> E[Model-Assisted Execution]
+    E --> F[Human Review]
+    F --> G[Testing & Validation]
+    G --> H[Integrated Delivery Increment]
+
+    I[Security & Confidentiality Guardrails] -.-> C
+    I -.-> D
+    I -.-> E
+    I -.-> F
+
+    J[Acceptance Criteria] -.-> C
+    J -.-> F
+    J -.-> G
 ```
 
 What matters most:
